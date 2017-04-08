@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+ul, ol{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* ////////////////// HEADER ////////////////// */
+
+.container-header img{
+  width: 95%;
+}
+
+.main-header div{
+  position: absolute;
+}
+
+.main-header h1{
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(64, 117, 191, 0.42);
+  color: white;
+  font-size: 35px;
+  position: relative;
+  margin-bottom: 50px;
+  margin: 0 5%;
+  width: 200px;
+  padding: 0 15px;
+}
+
+.main-header {
+  background-image: url(../images/hawai5.jpg);
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  height: 500px;
+  margin: 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-nav li{
+  background-color: rgba(64, 117, 191, 0.42);
+  text-align: left;
+  display: block;
+  padding: 5%;
+  margin-right: 40%;
+  border-bottom: solid 1px white;
+}
+
+.main-nav li:last-child{
+  border-bottom: none;
+}
+
+
+/* ////////////////// BODY ////////////////// */
+
+.container{
+  width: 90%;
+  margin: 5%;
+  overflow: hidden;
+}
+
+.recomendados,.destacados,.links,.datos,.fotos{
+  background-color: rgba(22,24,106,1);
+}
+.recomendados,.destacados,.fotos,.links,.datos {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  width: 90%;
+  margin: 5%;
+  position: relative;
+}
+
+.destacados img{
+  width: 95%;
+}
