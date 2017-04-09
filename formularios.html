@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WEB TRIP-REGISTRACIÓN</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  </head>
+  <body>
+
+    <section class="principal-container">
+
+
+          <!--/////////   LINKS   ///////// -->
+          <article class="main-header">
+
+            <!--/////////   LOGO   ///////// -->
+            <h1>WEB TRIP</h1>
+
+            <!--/////////   LOGIN   ///////// -->
+                  <article class="login">
+
+                    <header class="container-header">
+                  </article>
+
+                    <a href="#" class="toggle-nav">
+                    <span class="ion-navicon-round"></span>
+                  </a>
+
+
+            <nav class="main-nav">
+              <ul>
+                <li><a href="#">Destinos destacados</a></li>
+                <li><a href="#">Recomendados por viajeros</a></li>
+                <li><a href="#">links de interes</a></li>
+                <li><a href="#">Datos utiles</a></li>
+                <li><a href="#">Imagenes de viajeros</a></li>
+              </ul>
+            </nav>
+
+          </article>
+          <article class="buscador">
+
+          </article>
+
+        </header>
+
+    <form action="script.php" method="post">
+<label>Nombre</label><input type="text" name="Nombre"required>
+<br>
+<label>Usuario</label><input type="text" name="Usuario"required>
+<br>
+<label>Contraseña</label><input type="password" name="Contraseña"required>
+<br>
+<label>Confirmá contraseña</label><input type="password" name="conf-contraseña"required>
+<br>
+<label>Género:</label>
+<label>Hombre</label><input type="radio" name="Genero"required>
+<label>Mujer</label><input type="radio" name="Genero"required>
+<label>Otro</label><input type="radio" name="Genero"required>
+<br>
+<label>Tipo de viajero:</label>
+<label>Mochilero</label><input type="checkbox" name="Mochilero">
+<label>Hostels</label><input type="checkbox" name="Hostels">
+<label>Viajes cortos</label><input type="checkbox" name="Viajes-cortos">
+<br>
+<label>País</label><select name="País"required>
+  <option value="Ar">Argentina</option>
+  <option value="Bo">Bolivia</option>
+  <option value="Br">Brasil</option>
+  <option value="Chi">Chile</option>
+  <option value="Ur">Uruguay</option>
+</select>
+<br>
+<label>Dónde te gustaría viajar</label>
+<br>
+<label>Europa</label><input type="checkbox" name="Europa">
+<label>América del Norte</label><input type="checkbox" name="Am-Norte">
+<label>América Latina</label><input type="checkbox" name="L-America">
+<label>Lejano Oriente</label><input type="checkbox" name="Lej-Oriente">
+<label>Medio Oriente</label><input type="checkbox" name="M-Oriente">
+<label>Africa</label><input type="checkbox" name="Africa">
+<br>
+<label>Acerca de vos</label>
+<br>
+<textarea name="Contanos" rows="8" cols="80"></textarea required>
+  <br>
+  <br>
+<button type="submit" name="Enviar">ENVIAR</button>
+
+</section>
+    <a href="index.html">Volver</a>
+  </section>
+
+  </body>
+</html>
