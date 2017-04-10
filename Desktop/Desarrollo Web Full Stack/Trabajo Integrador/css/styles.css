@@ -19,7 +19,7 @@ ul, ol{
 
 a{
   text-decoration: none;
-  color: white;
+/*  color: white;*/
 }
 
 /* ////////////////// HEADER ////////////////// */
@@ -90,4 +90,160 @@ a{
 
 .destacados img{
   width: 95%;
+}
+
+/* ////////////////// FOOTER ////////////////// */
+
+.main-footer{
+position: relative;
+  }
+
+.footer-container{
+  margin: auto;
+  width: 90%;
+  overflow: hidden;
+  border: 2px dashed red;
+}
+
+.about-us{
+  display: none;
+}
+
+.faq{
+  width: 25%;
+  float: left;
+  border: 2px dashed red;
+}
+
+.faq a{
+  color: grey;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 0px;
+  }
+
+.faq a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+
+.redes-footer{
+  width: 60%;
+  float: right;
+  border: 2px dashed red;
+  overflow: hidden;
+}
+
+.redes-footer li{
+  display: block;
+  width: 30px;
+  float: left;
+  padding: 2px 0px;
+  }
+
+.faq, .redes-footer{
+  height: 40px;
+}
+.derechos{
+  margin-top: 30px;
+  clear: both;
+  width: 100%;
+  border: 2px dashed red;
+}
+
+.derechos h3{
+  text-align: left;
+  font-size: 10px;
+  color: grey;
+}
+
+
+/* ////////////////// FAQ ////////////////// */
+
+.faq-container{
+  width: 90%;
+  margin:auto;
+  overflow: hidden;
+  /*border: 2px dashed red;*/
+}
+
+.ion-ios-home-outline{
+  color: grey;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*.faq-header{
+  border: 2px dashed red;
+}*/
+
+.faq-header h2{
+  text-align: center;
+  color: grey;
+}
+
+.faq-header a{
+  float:left;
+}
+
+.faq-nav{
+  /*border: 2px dashed red;*/
+  background-color: rgb(178, 176, 176);
+}
+
+.faq-nav a{
+  display: block;
+  border-bottom: 2px solid white;
+  color: white;
+  padding: 5px;
+  }
+
+
+/*.faq-s{
+  border: 2px dashed red;
+}*/
+
+.faq-s a{
+  color: grey;
+  font-weight: bold;
+}
+
+/*.question{
+  border: 2px dashed red;
+}*/
+
+.question p{
+  text-align: justify;
+}
+
+
+@media (min-width:640px){
+  .about-us{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border: 2px dashed red;
+  }
+  .about-us img{
+    width: 140px;
+    border-radius: 50%;
+    float: left;
+    padding: 20px;
+    margin-left:
+  }
+
+  .about-us h2, p{
+    text-align: center;
+  }
+
+  .faq-nav{
+    display: none;
+  }
+  .faq-s a{
+    display: none;
+  }
+  .faq-s{
+    border: 2px solid grey;
+  }
+
 }
