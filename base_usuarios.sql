@@ -1,0 +1,19 @@
+CREATE DATABASE IF NOT EXISTS base_usuarios
+;
+
+USE base_usuarios;
+
+
+CREATE TABLE usuarios (
+`Id` INT NOT NULL AUTO_INCREMENT ,
+`Nombre` VARCHAR(100) NOT NULL ,
+`Apellido` VARCHAR(100) NOT NULL ,
+`Usuario` VARCHAR(100) NOT NULL ,
+`Email` VARCHAR(100) NOT NULL ,
+`Password` VARCHAR(500) NOT NULL ,
+`Fecha_Nacim` DATE NOT NULL ,
+`Lugar_Nacim` VARCHAR(500) NOT NULL ,
+`Genero` VARCHAR(100) NOT NULL ,
+`Viajero` VARCHAR(500) NOT NULL ,
+`Donde` VARCHAR(500) NOT NULL
+);

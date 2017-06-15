@@ -4,12 +4,12 @@
 
 body{
   margin: 0;
-  font-family: sans-serif;
-}
+  font-family: 'Oxygen', sans-serif;
+  }
 
 img{
   width: 100%;
-}
+  }
 
 ul, ol{
   list-style: none;
@@ -24,70 +24,640 @@ a{
 
 /* ////////////////// HEADER ////////////////// */
 
-.container-header img{
-  width: 95%;
-}
-
-.main-header div{
-  position: absolute;
-}
-
-.main-header h1{
-  font-family: 'Raleway', sans-serif;
-  background-color: rgba(64, 117, 191, 0.42);
-  color: white;
-  font-size: 35px;
-  position: relative;
-  margin-bottom: 50px;
-  margin: 0 5%;
-  width: 200px;
-  padding: 0 15px;
-}
-
 .main-header {
-  background-image: url(../images/hawai5.jpg);
-  font-family: 'Raleway', sans-serif;
-  width: 90%;
-  height: 500px;
-  margin: 5%;
-  position: relative;
+  font-family: 'Gloria Hallelujah', sans-serif;
+  background-color: rgb(249, 176, 49);
+  position: fixed;
+  width: 100%;
+  margin:auto;
+  height: 15%;
   overflow: hidden;
+  z-index: 50;
 }
 
 .main-nav li{
-  background-color: rgba(64, 117, 191, 0.42);
+  background-color: rgba(249, 176, 49, 0.85);
   text-align: left;
   display: block;
   padding: 5%;
-  margin-right: 40%;
-  border-bottom: solid 1px white;
+  margin-left: -350px;
+  /*border-bottom: solid 1px white;*/
 }
 
 .main-nav li:last-child{
   border-bottom: none;
 }
 
+.main-nav ul{
+  margin-top: 20%;
+}
+
+.logo{
+  font-family: 'Gloria Hallelujah', sans-serif;
+  color: white;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 1px;
+}
+
+.toggle-nav {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  margin-top: -50px;
+}
+
+.reg-log{
+  margin-left: 300px;
+  margin-top: -45px;
+  display: inline-block;
+  float: left;
+}
+
+.reg-log li{
+  display: inline-block;
+  float: left;
+}
+
+.log{
+  margin-left: 320px;
+  margin-top: -45px;
+}
+
+.log li{
+  display: inline-block;
+  float: left;
+  color: white;
+  font-size: 15px;
+}
 
 /* ////////////////// BODY ////////////////// */
 
-.container{
-  width: 90%;
-  margin: 5%;
-  overflow: hidden;
-}
 
-.recomendados,.destacados,.links,.datos,.fotos{
-  background-color: rgba(22,24,106,1);
-}
-.recomendados,.destacados,.fotos,.links,.datos {
-  color: white;
-  font-family: sans-serif;
-  text-align: center;
-  width: 90%;
-  margin: 5%;
+.banner-buscador{
+  width: 100%;
+  top: 80px;
   position: relative;
 }
 
-.destacados img{
-  width: 95%;
+.banner{
+  width: 100%;
+  margin: auto;
+  position: relative;
+  }
+
+.banner img{
+  width: 400px;
+  height: 100px;
+  }
+
+.buscador{
+  position: absolute;
+  width: 80%;
+  height: 45px;
+  margin-left: 10%;
+  margin-top: -20%;
+  z-index: 10;
 }
+
+.ion-ios-search{
+  position: absolute;
+  height: 45px;
+  margin-left: 90%;
+  margin-top: -20%;
+}
+
+.buscador input{
+  font-family: 'Gloria Hallelujah', sans-serif;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+}
+
+.sections-container{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 130px;
+}
+
+.recomendados,.destacados,.fotos,.datos{
+  color: grey;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+
+.recomendados,.destacados,.fotos,.datos h2{
+  color: grey;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/* ////////////////// FORMULARIOS ////////////////// */
+
+.regis-form{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+  position: relative;
+  top: 100px;
+  /*border: 2px dashed red;*/
+}
+
+.login-form{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+  position: relative;
+  top: 100px
+  /*border: 2px dashed red;*/
+  }
+
+.olvido a{
+  color: grey;
+}
+
+/* ////////////////// FOOTER ////////////////// */
+
+.main-footer{
+/*position: relative;*/
+  }
+
+.footer-container{
+  margin: auto;
+  width: 90%;
+  overflow: hidden;
+  /*border: 2px dashed red;*/
+}
+
+.about-us{
+  display: none;
+}
+
+.faq{
+  width: 30%;
+  float: left;
+}
+
+.faq a{
+  color: rgb(73, 71, 71);
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 15px 0px;
+  }
+
+.faq a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+
+.redes-footer{
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.redes-footer li{
+  display: block;
+  width: 40px;
+  float: left;
+  padding: 2px 0px;
+  }
+
+.redes-footer ul{
+  position: absolute;
+  right: 1px;
+}
+
+.faq, .redes-footer{
+  height: 50px;
+}
+.derechos{
+  margin-top: 30px;
+  clear: both;
+  width: 100%;
+}
+
+.derechos h3{
+  text-align: left;
+  font-size: 15px;
+  color: rgb(73, 71, 71);
+}
+
+
+/* ////////////////// FAQ ////////////////// */
+
+.faq-container{
+  width: 100%;
+  margin: auto;
+  top: 150px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  /*border: 2px dashed red;*/
+  }
+
+.faq-container h2{
+  text-align: center;
+  color: grey;
+  font-size: 30px;
+  top: 150px;
+}
+
+.faq-nav{
+  background-color: rgb(178, 176, 176);-
+}
+
+.faq-nav a{
+  display: block;
+  border-bottom: 2px solid white;
+  color: white;
+  padding: 5px;
+  }
+
+/*.faq-s{
+  width: 60%;
+  margin: auto;
+  border: 2px dashed red;
+}*/
+
+.faq-container a{
+  color: grey;
+  font-weight: bold;
+}
+
+.faq-container h5{
+  display: none;
+}
+
+.question h4{
+color: grey;
+font-size: 20px;
+}
+
+.question p{
+  text-align: justify;
+  color: grey;
+}
+
+.subir a{
+  display: none;
+}
+
+
+@media (min-width:640px){
+
+input{
+    font-size: 14px;
+    }
+
+.sections-container{
+  margin-top: 90px;
+}
+
+.main-header {
+  height: 70px;
+}
+
+.logo{
+  font-size: 15px;
+  margin-left: 8%;
+  margin-top: -5px;
+}
+
+.toggle-nav {
+  font-size: 30px;
+  margin-left: 2%;
+  margin-top: -50px;
+}
+
+/*Registro y Login*/
+
+.reg-log{
+  margin-left: 70%;
+  margin-top: -40px;
+  display: inline-block;
+  float: left;
+}
+
+.log{
+  margin-left: 75%;
+  margin-top: -40px;
+  float: left;
+}
+
+.olvido a{
+  color: grey;
+  font-weight: bold;
+}
+
+.banner-buscador{
+  top: 70px;
+}
+
+.sections-container{
+  overflow: hidden;
+}
+
+.destacados,.recomendados,.fotos,.datos{
+  overflow: hidden;
+  float: left;
+  position: relative;
+  margin: 0 65px;
+  width: 80%;
+}
+
+  .about-us{
+    display:none;
+  }
+
+  .faq-nav{
+    display: none;
+  }
+  .faq-container a{
+    display: none;
+    text-align: justify;
+  }
+  .faq-container h5{
+    color: grey;
+    font-size: 20px;
+  }
+
+  .faq-s{
+    border: 2px solid grey;
+  }
+  .subir a{
+    display: block;
+    color: grey;
+    font-weight: bold;
+  }
+}
+
+/*SLIDES JAVA*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+  .regis-form{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+    /*border: 2px dashed red;*/
+  }
+
+  .login-form{
+    width: 40%;
+    margin:auto;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    top: 100px
+      /*border: 2px dashed red;*/
+    }
+
+.login-form, .regis-form h2{
+  text-align: center;
+  color: grey;
+}
+
+.campo input{
+  width: 80%;
+}
+
+.contanos textarea{
+  width: 80%;
+}
+
+@media (min-width:960px){
+
+.toggle-nav{
+    display: none;
+  }
+
+  .main-header {
+    height: 130px;
+  }
+
+  .logo{
+    font-size:15px;
+    margin-left: 3%;
+    margin-top: -10px;
+    padding: 5px;
+  }
+
+/*Registro y Login*/
+
+  .reg-log{
+    margin-left: 85%;
+    margin-top: -50px;
+    font-family: 'Gloria Hallelujah', sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    float: left;
+  }
+
+  .log{
+    margin-left: 85%;
+    margin-top: -25px;
+    float: left;
+  }
+
+
+  .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+    }
+
+  .banner-buscador{
+    top: 110px;
+  }
+
+.main-nav ul{
+    display: inline;
+    overflow: hidden;
+  }
+
+  .main-nav li{
+    float: left;
+    width: 17.5%;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 0;
+    margin-left: 2%;
+    padding: 0.5%;
+    border: 1%;
+    /*border-bottom: solid 1px white;*/
+    background-color: rgba(249, 176, 49, 0.85);
+  }
+/*
+  .main-nav li:last-child{
+    border-bottom: solid 1px white;
+  }*/
+
+
+.sections-container{
+  margin-top: 130px;
+    overflow: hidden;
+  }
+
+.recomendados,.destacados,.fotos,.links,.datos{
+  overflow: hidden;
+  float: left;
+  position: relative;
+  margin:auto 70px;
+  width: 35%;
+  }
+
+  .login input{
+    font-size: 15px;
+  }
+
+  .about-us{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    /*border: 2px dashed red;*/
+  }
+
+  .about-us img{
+    border-radius: 50%;
+    float: left;
+    margin: 30px;
+    box-shadow: 0 0 5px black;
+    max-width: 140px;
+    /*width: 180px;
+    border-radius: 50%;
+    float: left;
+    padding: 20px;*/
+          }
+  .about-us h2, p{
+    text-align: center;
+  }
+
+  .about-us li{
+      display: block;
+      float: left;
+      }
+
+  .about-us ul{
+      overflow: hidden;
+      display:inline-block;
+      margin: auto;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      }
+
+  .faq-container{
+        width: 80%;
+        margin: auto;
+        top: 50px;
+        overflow: hidden;
+        padding-bottom: 20px;
+      }
+
+.faq-container h2{
+  margin-top: 150px;
+}
+
+.faqs li { padding: 20px; }
+
+.faqs li.q {
+  background: #4FC2E;
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom: 1px #ddd solid;
+  cursor: pointer;
+  color:orange;
+}
+
+.faqs li.a {
+  background: white;
+  display: none;
+  color:grey;
+  text-align: justify;
+}
+
+.regis-form{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  /*border: 2px dashed red;*/
+
+}
+
+.login-form{
+  width: 40%;
+  margin:auto;
+  overflow: hidden;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  }
